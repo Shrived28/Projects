@@ -1,0 +1,26 @@
+*{
+    color: #022B3A;
+}
+
+body{
+    background-color: #E1E5F2;
+    text-align: center;
+}
+
+h1{
+    color: #022B3A;
+    top: 50px;
+}
+
+#graph{
+    width:50vw;
+}
+
+button{
+    width: 250px;
+    height: 25px;
+    border-radius: 4px;
+    border: 1.5px solid #022B3A;
+    background-color: #1F7A8C;
+    color: #E1E5F2;
+}
