@@ -58,7 +58,7 @@ def plt_graph():
     start_dt = request.form['start']
     end_dt = request.form['end']
     start_dt=start_dt+'T00:00:00'
-    end_dt=end_dt+'T00:00:00'
+    end_dt=end_dt+'T23:00:00'
 
     temp_tstep = get_temp_json(locatn,start_dt,end_dt)
 
