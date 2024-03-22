@@ -13,3 +13,6 @@ Users can input a location and a date range, and the application will retrieve h
 
 - After running server.py
 - Open your web browser and navigate to http://localhost:5000 to access the application.
+
+# Note :
+- When selecting a date range, please note that the maximum duration allowed is 15 days.
