@@ -65,9 +65,6 @@ def plt_graph():
     temperatures = temp_tstep[0]
     timesteps = temp_tstep[1]
 
-    # print(timesteps)
-    # print(temperatures)
-
     if temp_tstep:
         # Plotting the daily temperature data with dates
         plt.plot(timesteps, temperatures, label='Temperature')
@@ -82,7 +79,6 @@ def plt_graph():
 
         plt.legend()
         plt.tight_layout()  
-        # plt.show()
 
         # Convert the plot to a base64-encoded string
         buffer = BytesIO()
