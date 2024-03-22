@@ -52,9 +52,6 @@ def index():
 # Route to handle form submission and return the plot
 @app.route('/generate_graph', methods=['POST'])
 def plt_graph():
-    # latitude = request.form['latitude']
-    # longitude = request.form['longitude']
-    # locatn=latitude+','+longitude
     city=request.form['city']
     country=request.form['country']
     locatn=city+','+country
@@ -62,10 +59,6 @@ def plt_graph():
     end_dt = request.form['end']
     start_dt=start_dt+'T00:00:00'
     end_dt=end_dt+'T00:00:00'
-
-    # locatn= '17.6599,75.9064'    #'Washington,DC,USA'
-    # start_dt='2024-01-30T00:00'
-    # end_dt='2024-02-01T00:00'
 
     temp_tstep = get_temp_json(locatn,start_dt,end_dt)
 
@@ -77,7 +70,6 @@ def plt_graph():
 
     if temp_tstep:
         # Plotting the daily temperature data with dates
-    
         plt.plot(timesteps, temperatures, label='Temperature')
 
         # Formatting the x-axis to display dates
