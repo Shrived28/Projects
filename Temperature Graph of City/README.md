@@ -11,8 +11,6 @@ Users can input a location and a date range, and the application will retrieve h
 - Display the weather data in a graphical format (temperature graph)
 
 
-- After running server.py
-- Open your web browser and navigate to http://localhost:5000 to access the application.
-
 ### Note :
+- After running server.py. Open your web browser and navigate to http://localhost:5000 to access the application.
 - When selecting a date range, please note that the maximum duration allowed is 15 days.
