@@ -1,4 +1,4 @@
-# Flask Application to get Temperature Graph
+# Flask Application to plot Temperature Graph
 
 This is a simple Flask application that provides weather(Temperature) information based on user input. 
 Users can input a location and a date range, and the application will retrieve historical temperature data and display it in a graphical format.
