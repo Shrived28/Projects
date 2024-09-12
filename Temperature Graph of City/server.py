@@ -21,7 +21,7 @@ def get_temp_json(location,start_dt,end_dt):
         "shortColumnNames":"0"}
 
     headers = {
-        "X-RapidAPI-Key": "1dc3c2b46emsh924b46538cef7e5p116559jsna239d3fd2a65",
+        "X-RapidAPI-Key": "ENTER YOUR API KEY",
         "X-RapidAPI-Host": "visual-crossing-weather.p.rapidapi.com"
     }
 
